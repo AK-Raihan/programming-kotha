@@ -6,7 +6,7 @@ import post2 from '../../../images/course_image6.jpg'
 
 const Footer = () => {
     return (
-        <div style={{marginTop: "400px"}}>
+        <div >
             <div className='bg-dark text-white pt-5'>
             <div className="container">
                 <div className="row">

@@ -1,14 +1,15 @@
 import { useEffect, useState } from "react";
 import initializeFirebase from './../../Pages/Login/Login/Firebase/firebase.init';
-import { getAuth, 
-    signInWithEmailAndPassword, GoogleAuthProvider, 
-    createUserWithEmailAndPassword,
-    signInWithPopup, 
-    onAuthStateChanged, 
-    signOut 
-} from "firebase/auth";
+import { getAuth,
+     signInWithPopup, 
+     GoogleAuthProvider, 
+     signInWithEmailAndPassword, 
+     onAuthStateChanged,
+     createUserWithEmailAndPassword,
+     signOut
+    } from "firebase/auth";
 
-initializeFirebase();
+    initializeFirebase()
 const useFirebase = () => {
 
     const [user, setUser]=useState('');
