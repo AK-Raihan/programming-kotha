@@ -1,5 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home/Home/Home';
+import Services from './Pages/Home/Services/Services';
+import Login from './Pages/Login/Login/Login';
+import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
+import Register from './Pages/Login/Register/Register';
 import Footer from './Pages/Shared/Footer/Footer';
 import Navigation from './Pages/Shared/Navigation/Navigation';
 
@@ -14,6 +18,13 @@ function App() {
           <Route path="/" element={<Home />}>
           </Route>
           <Route path="/home" element={<Home />}>
+          </Route> 
+          <Route path="/services" element={<PrivateRoute>
+            <Services/>
+          </PrivateRoute>} />
+          <Route path="/login" element={<Login />}>
+          </Route> 
+          <Route path="/register" element={<Register />}>
           </Route> 
         </Routes>
         <Footer/>

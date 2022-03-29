@@ -14,7 +14,7 @@ const Courses = () => {
     return (
         <div>
             <div className="container py-5">
-            <h2>Our products here available</h2>
+            <h2 className='text-center'>Our Courses are here available</h2>
             <div className="row g-4 mt-3">
             {
                 products.map(product=><Course
