@@ -1,0 +1,32 @@
+
+.banner-text{}
+.banner-text h6{
+    color: #f14d5d;
+    font-size: 20px;
+}
+.banner-text h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+.banner-text p{
+    font-size: 18px;
+    line-height: 1.5em;
+    margin: 20px 0;
+}
+.banner-input{
+    padding: 20px 50px;
+    background: none;
+    border: 2px solid #f14d5d;
+}
+.banner-input:focus{
+    border: 2px solid #f14d5d;
+}
+.banner-btn{
+    padding: 23px 30px;
+    background: #f14d5d;
+}
+
+.banner-list-item ul li{
+    font-size: 18px;
+    margin-top: 10px;
+}
